@@ -6,7 +6,7 @@ const Episodes = () => {
     let [id, setID]=useState(1);
     let [info, setInfo]= useState([]);
     let [results,setResults]=useState([]);
-    let {air_date, name}= info;
+    let {air_date, name}= info; 
     let api =`https://rickandmortyapi.com/api/episode/${id}`
 
 
